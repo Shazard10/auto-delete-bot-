@@ -14,7 +14,7 @@ ADMINS = []
 for usr in environ.get("ADMINS").split():
     ADMINS.append(int(usr))
 
-START_MSG = "<b>Hai {},\nI'm a private bot of @mh_world to delete group messages after a specific time</b>"
+START_MSG = "<b>Hai {},\n എടാ നിനക്ക് വേറെ വല്ല പണിക്കും പോകാൻ നോക്ക് 💔</b>"
 
 
 User = Client(name="user-account",
